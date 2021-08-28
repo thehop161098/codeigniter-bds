@@ -1,0 +1,76 @@
+.wpNews .title{
+    line-height: 35px;
+    color: #FFF;
+    font-size: 16px;
+    border-bottom: 1px solid #055699;
+    margin: 0px 0px 10px;
+    font-size: 16px;
+}
+.wpNews .title span{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #055699;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.wpNews .contents{
+    margin-bottom: 20px;
+}
+.wpNews .contents .item .info{
+    padding: 0px 10px 10px 10px;
+}
+.wpNews .contents .item{
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+}
+.wpNews .contents .item .boxImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    position: relative;
+}
+.wpNews .contents .item h3{
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+.main .wpNews .box-cate-content img {
+    width: 100% !important;
+    height: auto;
+}
+/*---------------------- detaild ------------------------*/
+.wpNewsDetail h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px 10px;
+}
+.wpNewsDetail .des{
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 600;
+    text-align: justify;
+}
+.wpNewsDetail .boxShare{
+    background: #f7f7f7;
+    line-height: 40px;
+}
+.wpNewsDetail .boxShare .box{
+    float: right;
+    margin-right: 10px;
+}
+.wpNewsDetail .boxShare .box a{
+    font-size: 25px;
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+.wpNewsDetail .boxShare .box .btn_twitter i {
+    color: #00aced;
+}
+.wpNewsSame .contents .item .boxImg {
+    height: 135px;
+}
+.main .wpNewsDetail .boxContents img {
+    width: 100% !important;
+    height: auto;
+}

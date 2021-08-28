@@ -1,0 +1,95 @@
+.boxAuth .authMenu{
+	display: table;
+	margin: 0px auto 20px;
+	background: #ddd;
+}
+.boxAuth .authMenu ul{
+	margin: 0px;
+}
+.boxAuth .authMenu ul li{
+	float: left;
+}
+.boxAuth .authMenu ul li a{
+	color: #333;
+	padding: 0px 15px;
+	line-height: 35px;
+	font-size: 15px;
+}
+.boxAuth .authMenu ul li.active, .boxAuth .authMenu ul li:hover{
+	background-color: #055699;
+}
+.boxAuth .authMenu ul li.active a, .boxAuth .authMenu ul li:hover a{
+	color: #FFF;
+}
+.boxAuth .boxForm{
+	width: 480px;
+	max-width: 100%;
+	margin: 0px auto 30px;
+	border: 1px solid #dee2e6;
+	padding: 20px 30px;
+}
+.boxAuth .boxForm .item{
+	margin: 15px 0px;
+}
+.boxAuth .boxForm .item .inputGroup{
+	position: relative;
+}
+.boxAuth .boxForm .item .inputGroup .pro{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	height: 99%;
+	background-color: #E9ECEF;
+	padding: 15px;
+	line-height: 10px;
+}
+.boxAuth .boxForm .item label{
+	margin: 0px;
+}
+.boxAuth .boxForm .item label span{
+	color: #F00;
+}
+.boxAuth .boxForm .item input{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #dee2e6;
+}
+.boxAuth .boxForm .item select{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #dee2e6;
+}
+.boxAuth .boxForm .item textarea{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #dee2e6;
+}
+.boxAuth .boxForm .item button {
+    background-color: #055699;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border: none;
+    margin-top: 5px;
+    float: right;
+}
+.boxAuth .boxForm .item button:hover {
+    background-color: #81B341; 
+}
+.boxAuth .boxListBDS .tools a{
+	font-size: 20px;
+}
+.boxAuth .boxListBDS .table th {
+    border-top: 1px solid #dee2e6 !important;
+}
+.boxAuth .boxListBDS .table td .name{
+	font-weight: 700;
+}
+.boxAuth .boxFormDangTin {
+	border: none;
+	padding: 0px;
+	width: 100%;
+}
+.boxAuth .boxFormDangTin .item {
+    margin: 10px 0px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700');
+.clear{
+    clear: both;
+}
+.clear.height10{
+    height: 10px;
+}
+.clear.height20{
+    height: 20px;
+}
+.clear.height30{
+    height: 30px;
+}
+.clear.height50{
+    height: 50px;
+}
+.clear.border1{
+    border-top: 1px solid #dedede;
+    margin: 15px 0px;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+a:hover{
+    text-decoration: none !important;
+}
+a:link{
+    text-decoration: none;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-image: url('../../public/images/aeros/bg-body.png');
+    background-repeat: repeat;
+}
+.page_404{
+    text-align: center;
+    margin: 100px 0px 0px;
+}
+.page_404 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    margin: 0px 0px 20px 0px;
+}
+.page_404 h1 span{
+    color: #F00;
+}

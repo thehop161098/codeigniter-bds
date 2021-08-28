@@ -1,0 +1,1 @@
+<footer class="footer text-center"> 2018 &copy; <i class="icon-home"></i> Optech.vn</footer>

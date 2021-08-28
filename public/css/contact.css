@@ -1,0 +1,63 @@
+.main .page-contact .Showroom_list {
+  margin: 20px 0px;
+}
+.main .page-contact .Showroom_list .showroom_iframe .gg_iframe {
+  width: 100%;
+}
+.main .page-contact .showroom_category h4 {
+  font-size: 19px;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+.main .page-contact .showroom_category .showroom_select .change_addr {
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  color: #333;
+  text-indent: 5px;
+  font-size: 13px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 0 transparent inset;
+  padding: .6em .8em;
+  outline: none;
+}
+.main .page-contact .showroom_category .showroom_addr_wrapper {
+  margin-top: 15px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 380px;
+}
+.main .page-contact .showroom_category .showroom_addr_wrapper ul li {
+  padding-left: 14px;
+  border: 1px solid #f5f5f5;
+  border-top: 0;
+  background: #fff;
+}
+.main .page-contact .showroom_category .showroom_addr_wrapper ul li a{
+  color: #444;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+  padding: 8px 0;
+  font-weight: 400;
+}
+.main .page-contact .showroom_category .showroom_addr_wrapper ul li a::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background: #000;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.main .page-contact .showroom_category .showroom_addr_wrapper b {
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main .page-contact .showroom_category .showroom_addr_wrapper .contact-phone {
+  color: red;
+  font-weight: 600;
+}

@@ -1,0 +1,228 @@
+.wpBDSList .title{
+    line-height: 35px;
+    color: #FFF;
+    font-size: 16px;
+    border-bottom: 1px solid #055699;
+    margin-bottom: 10px;
+}
+.wpBDSList .title span{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #055699;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.wpBDSList .contents{
+    margin-bottom: 20px;
+}
+.wpBDSList .contents .item .info{
+    padding: 0px 10px 10px 10px;
+}
+.wpBDSList .contents .item{
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+}
+.wpBDSList .contents .item .boxImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    position: relative;
+}
+.wpBDSList .contents .item h3{
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 700;
+    min-height: 68px;
+}
+.wpBDSList .contents .item .price{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #81B341;
+    color: #FFF;
+    padding: 4px 5px;
+}
+.wpBDSList .contents .item .distrist{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #055699;
+    color: #FFF;
+    padding: 4px 5px;
+}
+.wpBDSList .contents .item i{
+    margin-right: 2px;
+}
+.wpBDSList .contents .item .cate a{
+    color: #333;
+    font-weight: 700;
+    font-size: 13px;
+}
+.wpBDSList .contents .item .cate a:hover, .wpBDSList .contents .item a:hover{
+    color: #ff842b;
+}
+.wpBDSList .contents .item .timeup{
+    margin: 20px 0px 0px;
+}
+.wpBDSList .contents .item .viewDetail{
+    padding: 4px 10px;
+    border: 2px solid #81B341;
+    color: #81B341;
+    font-weight: 700;
+    margin-top: 15px;
+    float: right;
+}
+.wpBDSList .contents .item .viewDetail:hover{
+    background-color: #81B341;
+    color: #FFF;
+}
+/*------------------------- menu ---------------------------- */
+.bdsDetail{
+    margin-bottom: 20px;
+}
+.bdsDetail .boxShare{
+    background: #f7f7f7;
+    line-height: 40px;
+}
+.bdsDetail .boxShare .box{
+    float: right;
+    margin-right: 10px;
+}
+.bdsDetail .boxShare .box a{
+    font-size: 25px;
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+.bdsDetail .boxShare .box .btn_twitter i {
+    color: #00aced;
+}
+.bdsDetail .boxInfo{
+    border: 1px solid #dee2e6;
+}
+.bdsDetail .boxInfo h1.title{
+    background-color: #E5F9E7;
+    line-height: 35px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px;
+}
+.bdsDetail .boxPriceCate{
+    background-color: #E5F9E7;
+    line-height: 45px;
+}
+.bdsDetail .boxPriceCate .cate{
+    float: left;
+    padding-left: 10px;
+}
+.bdsDetail .boxPriceCate .cate a:hover{
+    color: #ff842b;
+}
+.bdsDetail .boxPriceCate .cate{
+}
+.bdsDetail .boxPriceCate .price{
+    float: right;
+    height: 100%;
+    background-color: #055699;
+    color: #FFF;
+    padding: 0px 15px;
+    position: relative;
+    font-size: 18px;
+}
+.bdsDetail .boxPriceCate .price:before {
+    content: ' ';
+    display: block;
+    border-right: 10px solid #055699;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    position: absolute;
+    z-index: 10;
+    right: 100%;
+    top: 0;
+}
+.bdsDetail .boxInfo .boxContent{
+    padding: 15px;
+}
+.bdsDetail .boxInfo .boxContent .infoUser{
+    margin-bottom: 15px;
+}
+.bdsDetail .boxInfo .boxContent .infoUser .avater{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+}
+.bdsDetail .boxInfo .boxContent .infoUser .info{
+    float: left;
+}
+.bdsDetail .boxInfo .boxContent .infoUser .info .phone {
+    border: 1px solid #dee2e6;
+    color: #212529;
+    padding: 7px 15px;
+    display: table;
+    margin-top: 10px;
+}
+.bdsDetail .boxInfo .boxContent .infoUser .info .phone:hover{
+    color: #ff842b;
+    background-color: #dae0e5;
+}
+.bdsDetail .boxInfo .boxTabs .nav-tabs {
+    border-bottom: none !important;
+    background-color: #f8f9fa;
+}
+.bdsDetail .boxInfo .boxTabs .nav-tabs>li.active>a, .bdsDetail .boxInfo .boxTabs .nav-tabs>li.active>a:focus,.bdsDetail .boxInfo .boxTabs .nav-tabs>li.active>a:hover {
+    border: none !important;
+    background-color: #055699;
+    border-radius: 0px;
+    color: #FFF;
+}
+.bdsDetail .boxInfo .boxTabs .nav>li>a:focus,.bdsDetail .boxInfo .boxTabs .nav>li>a:hover {
+    background-color: #055699;
+    color: #FFF;
+    border-radius: 0px;
+}
+.bdsDetail .boxInfo .boxTabs .photoOneSlick{
+    margin: 10px 0px;
+}
+.bdsDetail .boxInfo .boxTabs .photoOneSlick .item{
+    height: 400px;
+}
+.bdsDetail .boxInfo .boxTabs .photoOneSlick .item img{
+    height: 100%;
+    margin: auto;
+}
+.bdsDetail .boxInfo .boxTabs .photoSlick{
+    border-top: 1px solid #dee2e6;
+    padding: 10px 0px;
+}
+.bdsDetail .boxInfo .boxTabs .photoSlick .boxImg{
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 5px;
+}
+.bdsDetail .boxInfo .boxContent .address{
+    line-height: 30px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+.bdsDetail .boxInfo .boxContent .boxUtility .item{
+    border: 0.5px solid #dee2e6;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.bdsDetail .boxInfo .boxContent .boxUtility{
+    margin-bottom: 10px;
+}
+.bdsDetail .boxInfo .boxContent .boxUtility .item i{
+    margin-right: 5px;
+}
+.bdsDetail .boxInfo .boxContent .boxUtility .item.no-bt{
+    border-top: none;
+}
+.bdsDetail .boxInfo .boxContent .boxUtility .item.no-bl{
+    border-left: none;
+}

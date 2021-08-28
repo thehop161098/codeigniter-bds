@@ -1,0 +1,201 @@
+@media screen and (max-width: 768px) {
+	.mm-navbar {
+		background: #055699;
+	}
+	.mm-navbar a {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		color: #FFF !important;
+		font-size: 16px;
+	}
+	#slide .contents { top: 40px; }
+	.header { 
+		background: #055699;
+		width: min-content;
+		top: 15px;
+		position: absolute;
+		left: 22px;
+		border-radius: 4px;
+		z-index: 999;
+	}
+	.mainmenu .logo
+	{
+		text-align: center;
+	}
+	.mainmenu .search-switcher-block
+	{
+		text-align: center;
+	}
+	#slide .contents h1 { font-size: 30px; }
+	#slide .contents h2 { font-size: 17px; display: none;}
+	.slide_info .item { width: auto; }
+	
+	.item > div.pd10 { margin-bottom: 10px; }
+	.contents { margin-bottom: 20px; }
+	#contents .contentsItem .item .box_img {
+		background-image: none!important;
+		height: auto;
+	}
+	#contents .contentsItem .item h3 { text-align: left; }
+	.page-contact .col-left { padding: 15px 15px }
+	.thumb-cate-new-first { min-height: 220px }
+	.thumb-cate-new-first h4, .thumb-cate-new h4 { 
+		bottom: -5px;
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.itemCateNews h3 { font-size: 14px }
+	.mm-btn:after, .mm-btn:before {
+		border-color: #FFF;
+	}
+	.mm-listitem .mm-btn:after,.mm-listitem .mm-btn:before{
+		border-color: #055699;
+	}
+	.mm-panels>.mm-panel {
+		background: #FFF;
+	}
+	.contentsRegis .contentsRegisItem .form-register {
+		width: 100%;
+		margin: auto;
+	}
+	.cateNewsHome .title {
+		font-size: 20px;
+	}
+	.cateNewsHome .title:after {
+		left: 30%;
+	}
+	#footer {
+		padding: 40px 0px 80px;
+	}
+	.newsHome .item .boxImg {
+	    width: 110px;
+	}
+}
+@media screen and (max-width: 640px){
+	.slider-wrapper {
+		margin: 0px;
+	}
+	.mm-navbar {
+		background: #055699;
+	}
+	.mm-navbar a{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		color: #FFF !important;
+		font-size: 16px;
+	}
+	.mobi_padding{
+		padding: 0px 10px;
+	}
+	.productList .item .box_img {
+		height: 160px;
+	}
+	#banner .box_search select {
+		width: 100px;
+	}
+	#banner .box_search input {
+		padding: 8px;
+		width: 200px;
+	}
+	#banner .box_search {
+		margin: 15px 0px 0px 0px;
+	}
+	#banner{
+		position: relative;
+	}
+	#banner .mobicart{
+		position: absolute;
+		top: 15px;
+		right: 0px;
+	}
+	#banner .mobilogin{
+		position: absolute;
+		bottom: -40px;
+		right: 0px;
+	}
+	.newsList .item .box_img {
+		height: 200px;
+	}
+	.newsList .item h3 {
+		margin: 10px 0px 10px;
+	}
+	.wpIdea .title {
+		font-size: 20px;
+	}
+	.itemCateNews .boxImg {
+		height: 235px;
+	}
+	#banner .box_logo{
+		text-align: center;
+	}
+	.menuMobi{
+		background: #055699;
+		position: absolute;
+		top: 18px;
+		left: 4%;
+		z-index: 999;
+	}
+	.wpSearch .contents .box .item {
+	    margin: 0px 0px 10px 0px;
+	}
+	.wpSearch .contents .box-sel .item-sel {
+	    width: 49%;
+	    margin: 0px 0.5% 10px;
+	}
+	.wpSearch .contents .choose-cate a {
+	    width: 50%;
+	}
+	.paddMobi{
+		margin: 10px;
+	}
+	.paddMobi2{
+		margin: 0px;
+	}
+	.wpBDS .contents .item .boxImg {
+	    height: 200px;
+	}
+	.wpBDSVip .contents .item .timeup {
+	    margin: 5px 0px 0px;
+	}
+	.wpBDSList .contents .item h3, .wpBDSVip .contents .item .box h3 {
+	    min-height: auto;
+	}
+	.wpBDSList .contents .item .timeup {
+	    margin: 5px 0px 0px;
+	}
+	.wpBDSList .contents .item .viewDetail {
+	    margin-top: 0px;
+
+	}
+	.wpBDSList .title {
+	    line-height: 20px;
+	}
+	.wpBDSList .title span {
+	    padding: 10px 10px;
+	}
+	.bdsDetail .boxInfo .boxTabs .photoOneSlick .item {
+	    height: 250px;
+	}
+	.bdsDetail .boxInfo .boxTabs .photoSlick .boxImg {
+	    height: 25px;
+	}
+	.bdsDetail .boxInfo h1.title {
+	    line-height: 20px;
+	    padding: 10px;
+	}
+	.wpProjecSearch .box .item{
+		margin-bottom: 10px;
+	}
+	.wpProjecSearch .box .itemBtn {
+	    margin-left: 0px; 
+	}
+	.wpProjectList .contents .item h3 {
+	    min-height: auto;
+	}
+	.wpProjectDetail .box .contents iframe{
+		max-width: 100%;
+	}
+	.wpNews .contents .item .boxImg {
+	    height: 200px;
+	}
+}

@@ -1,0 +1,4 @@
+User-agent: *
+disallow: /system/ 
+
+Sitemap: https://suanha86.com/sitemap.xml

@@ -1,0 +1,143 @@
+.wpProjecSearch{
+    margin-bottom: 10px;
+}
+.wpProjecSearch .title{
+    line-height: 35px;
+    color: #FFF;
+    font-size: 16px;
+    border-bottom: 1px solid #055699;
+    margin-bottom: 10px;
+}
+.wpProjecSearch .title span{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #055699;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.wpProjecSearch .box {
+    border: 1px solid #e3e3e3;
+    padding: 15px 0px;
+}
+.wpProjecSearch .box .itemInput{
+    margin-bottom: 15px;
+}
+.wpProjecSearch .box .itemInput input{
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    padding: 6px 10px;
+    outline: none;
+}
+.wpProjecSearch .box .item select{
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    padding: 6px 10px;
+    outline: none;
+}
+.wpProjecSearch .box .itemBtn{
+    margin-left: -15px;
+}
+.wpProjecSearch .box .itemBtn button{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #055699;
+    font-weight: 700;
+    color: #FFF;
+    border: none;
+    width: 100%;
+    line-height: 35px;
+}
+/* -------------------- project search ----------------------- */
+.wpProjectList .title{
+    line-height: 35px;
+    color: #FFF;
+    font-size: 16px;
+    border-bottom: 1px solid #055699;
+    margin-bottom: 10px;
+}
+.wpProjectList .title span{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #055699;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.wpProjectList .contents{
+    margin-bottom: 20px;
+}
+.wpProjectList .contents .item{
+    background-color: #FFF;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.wpProjectList .contents .item .info .address{
+    position: relative;
+    padding-left: 60px;
+    min-height: 60px;
+}
+.wpProjectList .contents .item .info .address span{
+    width: 60px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wpProjectList .contents .item .boxImg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    position: relative;
+}
+.wpProjectList .contents .item h3{
+    font-size: 16px;
+    margin: 8px 0px;
+    font-weight: 700;
+    min-height: 34px;
+}
+.wpProjectList .contents .item .cate a{
+    color: #333;
+    font-weight: 700;
+}
+.wpProjectList .contents .item .cate a:hover, .wpProjectList .contents .item a:hover{
+    color: #ff842b;
+}
+/* -------------------- project detail ----------------------- */
+.wpProjectDetail .box .boxImg img{
+    width: 100%;
+}
+.wpProjectDetail .box{
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+}
+.wpProjectDetail .box .info h1{
+    margin: 0px 0px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #055699;
+}
+.wpProjectDetail .box .info .item{
+    position: relative;
+    padding-left: 85px;
+    margin-bottom: 10px;
+}
+.wpProjectDetail .box .info .item span{
+    width: 85px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wpProjectDetail .box .contents{
+    text-align: justify;
+}
+.wpProjectDetail .box .contents .title{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #055699;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 15px;
+}
